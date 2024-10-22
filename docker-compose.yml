@@ -4,49 +4,46 @@ services:
   adminer:
     image: adminer
     ports:
-      - "8080:8080"
+      - "8090:8080"
     networks:
-      my-network:  # This should match the network used by your database
+      my-network:
 
   backend:
     build: ./backendapi2/simple-api-student/.
-    #TODO
+    ports:
+      - "8080:8080"
+    env_file:
+      - .env
+    environment:
+      - DB_USR=${DATABASE_USER}
+      - DB_PWD=${DATABASE_PASSWORD}
+      - DB_URL=${DATABASE_URL}
     networks:
       my-network:
-    #TODO
     depends_on:
       - database
-    #TODO
 
   database:
     build: ./database
-    #TODO
-    networks:
-      my-network:
-    #TODO
-    env_file:
-      - .env
+    ports:
+      - "5432:5432"
     environment:
       POSTGRES_USER: ${DATABASE_USER}
       POSTGRES_PASSWORD: ${DATABASE_PASSWORD}
       POSTGRES_DB: ${DATABASE_NAME}
     volumes:
       - database:/var/lib/postgresql/data
-    ports:
-      - "5432:5432"
+    networks:
+      my-network:
 
   httpd:
     build: ./frontend
-    #TODO
     ports:
       - "80:80"
-    #TODO
     networks:
       my-network:
-    #TODO
     depends_on:
       - backend
-    #TODO
 
 networks:
   my-network:
