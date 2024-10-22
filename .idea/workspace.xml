@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="694a2dca-d633-4b7b-b4b5-d074e8385599" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dockerfile" />
+      </list>
+    </option>
+  </component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2njzrkvonEixhwpQhZwjV99MUeW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/eloua/OneDrive/Documents/EPF/EPF_5A_DevOps/DevOps/TP1/frontend&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\eloua\OneDrive\Documents\EPF\EPF_5A_DevOps\DevOps\TP1\frontend" />
+      <recent name="C:\Users\eloua\OneDrive\Documents\EPF\EPF_5A_DevOps\DevOps\TP1\frontend\public-html" />
+      <recent name="C:\Users\eloua\OneDrive\Documents\EPF\EPF_5A_DevOps\DevOps\TP1\backendapi2" />
+      <recent name="C:\Users\eloua\OneDrive\Documents\EPF\EPF_5A_DevOps\DevOps\TP1\backend_API" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\eloua\OneDrive\Documents\EPF\EPF_5A_DevOps\DevOps\TP1\frontend" />
+      <recent name="C:\Users\eloua\OneDrive\Documents\EPF\EPF_5A_DevOps\DevOps\TP1\Database\docker-entrypoint-initdb.d" />
+      <recent name="C:\Users\eloua\OneDrive\Documents\EPF\EPF_5A_DevOps\DevOps\TP1\Database" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="01-CreateScheme.sql and 1 more" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/Database/docker-entrypoint-initdb.d/01-CreateScheme.sql" />
+      <script-file value="$PROJECT_DIR$/Database/docker-entrypoint-initdb.d/02-InsertData.sql" />
+      <script-mode>FILE</script-mode>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Database Script.01-CreateScheme.sql and 1 more" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.21829.142" />
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-IU-242.21829.142" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="694a2dca-d633-4b7b-b4b5-d074e8385599" name="Changes" comment="" />
+      <created>1729501475174</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1729501475174</updated>
+      <workItem from="1729501476018" duration="7017000" />
+      <workItem from="1729513764434" duration="1777000" />
+      <workItem from="1729515573294" duration="2943000" />
+      <workItem from="1729519705569" duration="396000" />
+      <workItem from="1729520115927" duration="2918000" />
+      <workItem from="1729541021641" duration="111000" />
+      <workItem from="1729541633256" duration="239000" />
+      <workItem from="1729541923668" duration="2240000" />
+      <workItem from="1729580842773" duration="8564000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

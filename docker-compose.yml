@@ -1,0 +1,55 @@
+version: '3.7'
+
+services:
+  adminer:
+    image: adminer
+    ports:
+      - "8080:8080"
+    networks:
+      my-network:  # This should match the network used by your database
+
+  backend:
+    build: ./backendapi2/simple-api-student/.
+    #TODO
+    networks:
+      my-network:
+    #TODO
+    depends_on:
+      - database
+    #TODO
+
+  database:
+    build: ./database
+    #TODO
+    networks:
+      my-network:
+    #TODO
+    env_file:
+      - .env
+    environment:
+      POSTGRES_USER: ${DATABASE_USER}
+      POSTGRES_PASSWORD: ${DATABASE_PASSWORD}
+      POSTGRES_DB: ${DATABASE_NAME}
+    volumes:
+      - database:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
+  httpd:
+    build: ./frontend
+    #TODO
+    ports:
+      - "80:80"
+    #TODO
+    networks:
+      my-network:
+    #TODO
+    depends_on:
+      - backend
+    #TODO
+
+networks:
+  my-network:
+
+volumes:
+  database:
